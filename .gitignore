@@ -1,0 +1,39 @@
+# 忽略用户产出物与私人素材 —— 一旦误提交真人照片不可逆
+# 根目录散落图片（防止误提交真人照片/成品）
+/*.png
+/*.jpg
+/*.jpeg
+/*.webp
+/*.gif
+/*.heic
+/*.HEIC
+ip-profiles/
+photos/
+uploads/
+outputs/
+*.heic
+*.HEIC
+
+# 密钥与环境变量
+.env
+.env.*
+*.key
+secrets.json
+
+# 系统与编辑器
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+
+# 临时文件
+_tmp*/
+tmp/
+*.log
